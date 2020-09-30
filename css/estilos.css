@@ -1,0 +1,171 @@
+/* .row>*,
+.form-row>*{
+    border: 1px solid red; //codigo para ver el comportamiento de las columnas
+} */
+/*-------------------------------------
+1. ESTILOS BODY 
+--------------------------------------*/
+body {
+  font-family: 'Lato', sans-serif;
+  color: #767982; }
+
+/*-------------------------------------
+2. ESTILOS COLOR PRINCIPAL 
+--------------------------------------*/
+.bg-primary {
+  background-color: #1b62af !important; }
+
+.text-primary {
+  color: #1b62af !important; }
+
+/*-------------------------------------
+3. ESTILOS COLOR SECUNDARIO 
+--------------------------------------*/
+.bg-secondary {
+  background-color: #4e4f52 !important; }
+
+.text-secondary {
+  color: #4e4f52 !important; }
+
+/*-------------------------------------
+4. ESTILO BOTON DE MENU 
+--------------------------------------*/
+#menu-navegacion .navbar-toggler {
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  outline: 0; }
+
+#menu-navegacion .boton-menu::before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f0c9";
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: white; }
+
+#menu-navegacion .icono-cerrar::before {
+  content: "\f00d"; }
+
+.navbar-dark .navbar-nav .nav-link {
+  padding: .5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 2rem;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #1e6ec5; }
+
+/* Estilos para el enlace activo */
+.navbar-dark .navbar-nav .nav-link.active {
+  background-color: #1e6ec5; }
+
+.iconos {
+  max-width: 55px;
+  max-height: 55px; }
+
+section.resume-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  /* Son 5rem + 24px que es lo que mide el navbar */
+  padding-bottom: 4rem;
+  max-width: 75rem;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.perfil {
+  max-width: 13rem;
+  max-height: 13rem; }
+
+@media (min-width: 990px) {
+  #menu-navegacion {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 17rem;
+    height: 100vh; }
+
+  #menu-navegacion .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem; }
+
+  #menu-navegacion .navbar-brand .img-profile {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+
+  #menu-navegacion .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto; }
+
+  #menu-navegacion .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%; }
+
+  #menu-navegacion .navbar-collapse .navbar-nav .nav-item {
+    display: block; }
+
+  #menu-navegacion .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block; }
+
+  section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  body {
+    padding-top: 0;
+    padding-left: 17rem; } }
+/*  section.resume-section .resume-section-content {
+   width: 100%;
+ } */
+/* Hace que cada seccion mida el 100% del alto de la pantalla a partir de md (CREO)*/
+ /* @media (min-width: 768px) {
+   section.resume-section {
+     min-height: 100vh;
+   }
+ }
+*/
+
+/*# sourceMappingURL=estilos.css.map */
